@@ -884,7 +884,7 @@ case "$CXX" in
   ;; 
   cl* | *\cl* | */cl*)
      CLLCFLAGS=$CXXFLAGS
-     CXXFLAGS="$CXXFLAGS -TP"
+     CXXFLAGS="$CXXFLAGS"
      if test $sym_openmp = true; then
          CXXFLAGS="$CXXFLAGS /openmp"
      fi
